@@ -1,0 +1,9 @@
+/agilib
+
+/mtrl_trainer/build
+/mtrl_trainer/build_release
+/mtrl_trainer/logs
+/mtrl_trainer/policies
+/mtrl_trainer/agilib
+
+.idea

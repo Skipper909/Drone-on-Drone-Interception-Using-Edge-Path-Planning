@@ -1,0 +1,54 @@
+-- The CXX compiler identification is GNU 9.5.0
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Check for working CXX compiler: /usr/bin/c++ - skipped
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+-- Using agilib includes from: /home/goose/benjiRL/mtrl-drone-racing-training/mtrl_trainer/../agilib/install/include
+-- Using agilib libraries from: /home/goose/benjiRL/mtrl-drone-racing-training/mtrl_trainer/../agilib/install/lib
+-- Expecting Acados includes in: /home/goose/benjiRL/mtrl-drone-racing-training/mtrl_trainer/../agilib/externals/acados-src/include
+-- Expecting Acados libraries in: /home/goose/benjiRL/mtrl-drone-racing-training/mtrl_trainer/../agilib/externals/acados-src/lib
+-- Found PythonInterp: /home/goose/miniconda3/envs/tfa/bin/python (found version "3.9.25") 
+-- Found PythonLibs: /home/goose/miniconda3/envs/tfa/lib/libpython3.9.so
+-- Performing Test HAS_FLTO
+-- Performing Test HAS_FLTO - Success
+-- Found pybind11: /usr/include (found version "2.9.1")
+-- Found pybind11
+-- Manually setting OpenMP CXX flags: -fopenmp
+-- Found yaml-cpp
+-- Found Eigen3
+-- Looking for C++ include pthread.h
+-- Looking for C++ include pthread.h - found
+-- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+-- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+-- Found Threads: TRUE  
+-- Found Threads
+-- Configuration successful for Python module 'csim_env'.
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/goose/benjiRL/mtrl-drone-racing-training/mtrl_trainer/build/agisim_batch_pybind_module
+[ 20%] [32mBuilding CXX object CMakeFiles/csim_env.dir/bindings.cpp.o[0m
+[ 80%] [32mBuilding CXX object CMakeFiles/csim_env.dir/TaskStabilization.cpp.o[0m
+[ 80%] [32mBuilding CXX object CMakeFiles/csim_env.dir/AgiSimBatch2.cpp.o[0m
+[ 80%] [32mBuilding CXX object CMakeFiles/csim_env.dir/TaskRacing.cpp.o[0m
+[01m[K/home/goose/benjiRL/mtrl-drone-racing-training/mtrl_trainer/AgiSimBatch2.cpp:[m[K In constructor ‘[01m[Kagi_env::AgiSimBatch::AgiSimBatch(int, const string&, const string&, const string&, const std::vector<std::vector<std::vector<double> > >&)[m[K’:
+[01m[K/home/goose/benjiRL/mtrl-drone-racing-training/mtrl_trainer/AgiSimBatch2.cpp:69:53:[m[K [01;31m[Kerror: [m[K‘[01m[KTaskInterception[m[K’ was not declared in this scope
+   69 |         available_tasks_.push_back(std::make_shared<[01;31m[KTaskInterception[m[K>());
+      |                                                     [01;31m[K^~~~~~~~~~~~~~~~[m[K
+[01m[K/home/goose/benjiRL/mtrl-drone-racing-training/mtrl_trainer/AgiSimBatch2.cpp:69:71:[m[K [01;31m[Kerror: [m[Kno matching function for call to ‘[01m[Kmake_shared<<expression error> >()[m[K’
+   69 |         available_tasks_.push_back(std::make_shared<TaskInterception>([01;31m[K)[m[K);
+      |                                                                       [01;31m[K^[m[K
+In file included from [01m[K/usr/include/c++/9/memory:81[m[K,
+                 from [01m[K/home/goose/benjiRL/mtrl-drone-racing-training/mtrl_trainer/AgiSimBatch.hpp:10[m[K,
+                 from [01m[K/home/goose/benjiRL/mtrl-drone-racing-training/mtrl_trainer/AgiSimBatch2.cpp:1[m[K:
+[01m[K/usr/include/c++/9/bits/shared_ptr.h:716:5:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class _Tp, class ... _Args> std::shared_ptr<_Tp> std::make_shared(_Args&& ...)[m[K’
+  716 |     [01;36m[Kmake_shared[m[K(_Args&&... __args)
+      |     [01;36m[K^~~~~~~~~~~[m[K
+[01m[K/usr/include/c++/9/bits/shared_ptr.h:716:5:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[01m[K/home/goose/benjiRL/mtrl-drone-racing-training/mtrl_trainer/AgiSimBatch2.cpp:69:71:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+   69 |         available_tasks_.push_back(std::make_shared<TaskInterception>([01;31m[K)[m[K);
+      |                                                                       [01;31m[K^[m[K
+gmake[2]: *** [CMakeFiles/csim_env.dir/build.make:90: CMakeFiles/csim_env.dir/AgiSimBatch2.cpp.o] Error 1
+gmake[2]: *** Waiting for unfinished jobs....
+gmake[1]: *** [CMakeFiles/Makefile2:83: CMakeFiles/csim_env.dir/all] Error 2
+gmake: *** [Makefile:91: all] Error 2

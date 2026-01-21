@@ -1,0 +1,16 @@
+[31mCMake Error at CMakeLists.txt:70 (include):
+  include could not find requested file:
+
+    cmake/acados.cmake
+
+[0m
+[33mCMake Warning at CMakeLists.txt:72 (message):
+  cmake/acados.cmake did not define the 'acados_agi' target.  Linking might
+  fail.
+
+[0m
+[31mCMake Error at CMakeLists.txt:186 (message):
+  Could not find any ACADOS sources matching patterns in src/controller/mpc/.
+  Cannot build required 'acados_mpc' target.  Check paths in CMakeLists.txt.
+
+[0m

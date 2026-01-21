@@ -1,0 +1,2 @@
+Invoking command in '/home/goose/benjiRL/mtrl-drone-racing-training/build/agilib': CONDA_PROMPT_MODIFIER=(tfa) /usr/bin/cmake /home/goose/benjiRL/mtrl-drone-racing-training -DCMAKE_INSTALL_PREFIX=/home/goose/benjiRL/mtrl-drone-racing-training/install/agilib
+Invoked command in '/home/goose/benjiRL/mtrl-drone-racing-training/build/agilib' returned '1': CONDA_PROMPT_MODIFIER=(tfa) /usr/bin/cmake /home/goose/benjiRL/mtrl-drone-racing-training -DCMAKE_INSTALL_PREFIX=/home/goose/benjiRL/mtrl-drone-racing-training/install/agilib

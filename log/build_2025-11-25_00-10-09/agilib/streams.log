@@ -1,0 +1,36 @@
+[0.007s] Invoking command in '/home/goose/benjiRL/mtrl-drone-racing-training/build/agilib': CONDA_PROMPT_MODIFIER=(tfa) /usr/bin/cmake /home/goose/benjiRL/mtrl-drone-racing-training -DCMAKE_INSTALL_PREFIX=/home/goose/benjiRL/mtrl-drone-racing-training/install/agilib
+[0.092s] -- The C compiler identification is GNU 9.5.0
+[0.150s] -- The CXX compiler identification is GNU 9.5.0
+[0.160s] -- Detecting C compiler ABI info
+[0.217s] -- Detecting C compiler ABI info - done
+[0.223s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.223s] -- Detecting C compile features
+[0.224s] -- Detecting C compile features - done
+[0.228s] -- Detecting CXX compiler ABI info
+[0.294s] -- Detecting CXX compiler ABI info - done
+[0.300s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.300s] -- Detecting CXX compile features
+[0.301s] -- Detecting CXX compile features - done
+[0.301s] -- ==================   !Agilicious! (Standalone Build v2)   ===================
+[0.308s] -- Using system provided Eigen 3.4.0
+[0.309s] [31mCMake Error at CMakeLists.txt:70 (include):
+[0.309s]   include could not find requested file:
+[0.309s] 
+[0.309s]     cmake/acados.cmake
+[0.309s] 
+[0.309s] -- Searching for ACADOS sources relative to /home/goose/benjiRL/mtrl-drone-racing-training
+[0.309s] -- ACADOS_SOURCES found: 
+[0.309s] [0m
+[0.309s] [33mCMake Warning at CMakeLists.txt:72 (message):
+[0.309s]   cmake/acados.cmake did not define the 'acados_agi' target.  Linking might
+[0.309s]   fail.
+[0.309s] 
+[0.309s] [0m
+[0.309s] [31mCMake Error at CMakeLists.txt:186 (message):
+[0.309s]   Could not find any ACADOS sources matching patterns in src/controller/mpc/.
+[0.309s]   Cannot build required 'acados_mpc' target.  Check paths in CMakeLists.txt.
+[0.309s] 
+[0.309s] [0m
+[0.309s] -- Configuring incomplete, errors occurred!
+[0.309s] See also "/home/goose/benjiRL/mtrl-drone-racing-training/build/agilib/CMakeFiles/CMakeOutput.log".
+[0.312s] Invoked command in '/home/goose/benjiRL/mtrl-drone-racing-training/build/agilib' returned '1': CONDA_PROMPT_MODIFIER=(tfa) /usr/bin/cmake /home/goose/benjiRL/mtrl-drone-racing-training -DCMAKE_INSTALL_PREFIX=/home/goose/benjiRL/mtrl-drone-racing-training/install/agilib

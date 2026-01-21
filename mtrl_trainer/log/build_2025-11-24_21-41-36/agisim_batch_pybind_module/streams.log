@@ -1,0 +1,4 @@
+[0.009s] Invoking command in '/home/goose/benjiRL/mtrl-drone-racing-training/mtrl_trainer/build/agisim_batch_pybind_module': CONDA_PROMPT_MODIFIER=(tfa) /usr/bin/cmake --build /home/goose/benjiRL/mtrl-drone-racing-training/mtrl_trainer/build/agisim_batch_pybind_module -- -j8 -l8
+[0.058s] [35m[1mConsolidate compiler generated dependencies of target csim_env[0m
+[0.081s] [100%] Built target csim_env
+[0.089s] Invoked command in '/home/goose/benjiRL/mtrl-drone-racing-training/mtrl_trainer/build/agisim_batch_pybind_module' returned '0': CONDA_PROMPT_MODIFIER=(tfa) /usr/bin/cmake --build /home/goose/benjiRL/mtrl-drone-racing-training/mtrl_trainer/build/agisim_batch_pybind_module -- -j8 -l8

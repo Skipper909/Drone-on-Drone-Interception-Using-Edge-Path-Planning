@@ -1,0 +1,21 @@
+{
+  "policy_dir": "/home/goose/benjiRL/mtrl-drone-racing-training/mtrl_trainer/policies_intercept/best_intercept_10msTarget_copy",
+  "sim_config": "/home/goose/benjiRL/mtrl-drone-racing-training/mtrl_trainer/parameters/simulation.yaml",
+  "agi_param_dir": "/home/goose/benjiRL/mtrl-drone-racing-training/agilib/params",
+  "sim_base_dir": "/home/goose/benjiRL/mtrl-drone-racing-training/mtrl_trainer/parameters",
+  "num_episodes": 2000,
+  "max_steps": 1300,
+  "dt": 0.02,
+  "capture_radius": 1.0,
+  "near_miss_radius": 1.5,
+  "stop_on_capture": true,
+  "rel_pos_source": "task",
+  "rel_pos_slice": "0:3",
+  "rel_pos_scale_m": 300.0,
+  "vrel_source": null,
+  "vrel_slice": null,
+  "vrel_scale": 30.0,
+  "seed": 0,
+  "deterministic_evalmode": true,
+  "timestamp": "2026-01-21_21-30-07"
+}

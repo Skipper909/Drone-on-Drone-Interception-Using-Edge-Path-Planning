@@ -1,0 +1,141 @@
+[0.000000] (-) TimerEvent: {}
+[0.000339] (agisim_batch_pybind_module) JobQueued: {'identifier': 'agisim_batch_pybind_module', 'dependencies': OrderedDict()}
+[0.000437] (agisim_batch_pybind_module) JobStarted: {'identifier': 'agisim_batch_pybind_module'}
+[0.046994] (agisim_batch_pybind_module) JobProgress: {'identifier': 'agisim_batch_pybind_module', 'progress': 'cmake'}
+[0.047300] (agisim_batch_pybind_module) Command: {'cmd': ['/usr/bin/cmake', '/home/goose/benjiRL/mtrl-drone-racing-training/mtrl_trainer', '-DCMAKE_INSTALL_PREFIX=/home/goose/benjiRL/mtrl-drone-racing-training/mtrl_trainer/install/agisim_batch_pybind_module'], 'cwd': '/home/goose/benjiRL/mtrl-drone-racing-training/mtrl_trainer/build/agisim_batch_pybind_module', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('CONDA_PROMPT_MODIFIER', '(tfa)'), ('LANGUAGE', 'en_US:en'), ('USER', 'goose'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('HOME', '/home/goose'), ('CONDA_SHLVL', '2'), ('OLDPWD', '/home/goose'), ('DESKTOP_SESSION', 'ubuntu'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('SYSTEMD_EXEC_PID', '1094'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('_CE_M', ''), ('PYTHONNOUSERSITE', '1'), ('_CONDA_ROOT', '/home/goose/miniconda3'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('LOGNAME', 'goose'), ('_', '/usr/bin/colcon'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'goose'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('_CE_CONDA', ''), ('PATH', '/home/goose/miniconda3/envs/tfa/bin:/home/goose/miniconda3/condabin:/home/goose/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/goosetech:@/tmp/.ICE-unix/1065,unix/goosetech:/tmp/.ICE-unix/1065'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/b57bc0c5_5892_4937_99f5_28fbe37f6284'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('CONDA_PREFIX_1', '/home/goose/miniconda3'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.TCW3F3'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.124'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('CONDA_PYTHON_EXE', '/home/goose/miniconda3/bin/python'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('CONDA_DEFAULT_ENV', 'tfa'), ('_CONDA_EXE', '/home/goose/miniconda3/bin/conda'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/goose/benjiRL/mtrl-drone-racing-training/mtrl_trainer/build/agisim_batch_pybind_module'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('CONDA_EXE', '/home/goose/miniconda3/bin/conda'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('CONDA_PREFIX', '/home/goose/miniconda3/envs/tfa'), ('COLCON', '1'), ('VTE_VERSION', '6800')]), 'shell': False}
+[0.099875] (-) TimerEvent: {}
+[0.200239] (-) TimerEvent: {}
+[0.300622] (-) TimerEvent: {}
+[0.400890] (-) TimerEvent: {}
+[0.424574] (agisim_batch_pybind_module) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 9.5.0\n'}
+[0.435697] (agisim_batch_pybind_module) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[0.501022] (-) TimerEvent: {}
+[0.517833] (agisim_batch_pybind_module) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[0.526964] (agisim_batch_pybind_module) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[0.527742] (agisim_batch_pybind_module) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[0.528948] (agisim_batch_pybind_module) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[0.530355] (agisim_batch_pybind_module) StdoutLine: {'line': b'-- Using agilib includes from: /home/goose/benjiRL/mtrl-drone-racing-training/mtrl_trainer/../agilib/install/include\n'}
+[0.530465] (agisim_batch_pybind_module) StdoutLine: {'line': b'-- Using agilib libraries from: /home/goose/benjiRL/mtrl-drone-racing-training/mtrl_trainer/../agilib/install/lib\n'}
+[0.530535] (agisim_batch_pybind_module) StdoutLine: {'line': b'-- Expecting Acados includes in: /home/goose/benjiRL/mtrl-drone-racing-training/mtrl_trainer/../agilib/externals/acados-src/include\n'}
+[0.530593] (agisim_batch_pybind_module) StdoutLine: {'line': b'-- Expecting Acados libraries in: /home/goose/benjiRL/mtrl-drone-racing-training/mtrl_trainer/../agilib/externals/acados-src/lib\n'}
+[0.548051] (agisim_batch_pybind_module) StdoutLine: {'line': b'-- Found PythonInterp: /home/goose/miniconda3/envs/tfa/bin/python (found version "3.9.25") \n'}
+[0.601170] (-) TimerEvent: {}
+[0.672463] (agisim_batch_pybind_module) StdoutLine: {'line': b'-- Found PythonLibs: /home/goose/miniconda3/envs/tfa/lib/libpython3.9.so\n'}
+[0.674423] (agisim_batch_pybind_module) StdoutLine: {'line': b'-- Performing Test HAS_FLTO\n'}
+[0.701274] (-) TimerEvent: {}
+[0.801593] (-) TimerEvent: {}
+[0.817224] (agisim_batch_pybind_module) StdoutLine: {'line': b'-- Performing Test HAS_FLTO - Success\n'}
+[0.817577] (agisim_batch_pybind_module) StdoutLine: {'line': b'-- Found pybind11: /usr/include (found version "2.9.1")\n'}
+[0.817739] (agisim_batch_pybind_module) StdoutLine: {'line': b'-- Found pybind11\n'}
+[0.817859] (agisim_batch_pybind_module) StdoutLine: {'line': b'-- Manually setting OpenMP CXX flags: -fopenmp\n'}
+[0.820106] (agisim_batch_pybind_module) StdoutLine: {'line': b'-- Found yaml-cpp\n'}
+[0.825375] (agisim_batch_pybind_module) StdoutLine: {'line': b'-- Found Eigen3\n'}
+[0.826797] (agisim_batch_pybind_module) StdoutLine: {'line': b'-- Looking for C++ include pthread.h\n'}
+[0.901775] (-) TimerEvent: {}
+[0.905709] (agisim_batch_pybind_module) StdoutLine: {'line': b'-- Looking for C++ include pthread.h - found\n'}
+[0.905900] (agisim_batch_pybind_module) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD\n'}
+[0.987174] (agisim_batch_pybind_module) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success\n'}
+[0.988347] (agisim_batch_pybind_module) StdoutLine: {'line': b'-- Found Threads: TRUE  \n'}
+[0.988508] (agisim_batch_pybind_module) StdoutLine: {'line': b'-- Found Threads\n'}
+[0.996683] (agisim_batch_pybind_module) StdoutLine: {'line': b"-- Configuration successful for Python module 'csim_env'.\n"}
+[0.996847] (agisim_batch_pybind_module) StdoutLine: {'line': b'-- Configuring done\n'}
+[1.001843] (-) TimerEvent: {}
+[1.004483] (agisim_batch_pybind_module) StdoutLine: {'line': b'-- Generating done\n'}
+[1.006291] (agisim_batch_pybind_module) StdoutLine: {'line': b'-- Build files have been written to: /home/goose/benjiRL/mtrl-drone-racing-training/mtrl_trainer/build/agisim_batch_pybind_module\n'}
+[1.010148] (agisim_batch_pybind_module) CommandEnded: {'returncode': 0}
+[1.011164] (agisim_batch_pybind_module) JobProgress: {'identifier': 'agisim_batch_pybind_module', 'progress': 'build'}
+[1.012043] (agisim_batch_pybind_module) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/goose/benjiRL/mtrl-drone-racing-training/mtrl_trainer/build/agisim_batch_pybind_module', '--', '-j8', '-l8'], 'cwd': '/home/goose/benjiRL/mtrl-drone-racing-training/mtrl_trainer/build/agisim_batch_pybind_module', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('CONDA_PROMPT_MODIFIER', '(tfa)'), ('LANGUAGE', 'en_US:en'), ('USER', 'goose'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('HOME', '/home/goose'), ('CONDA_SHLVL', '2'), ('OLDPWD', '/home/goose'), ('DESKTOP_SESSION', 'ubuntu'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('SYSTEMD_EXEC_PID', '1094'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('_CE_M', ''), ('PYTHONNOUSERSITE', '1'), ('_CONDA_ROOT', '/home/goose/miniconda3'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('LOGNAME', 'goose'), ('_', '/usr/bin/colcon'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'goose'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('_CE_CONDA', ''), ('PATH', '/home/goose/miniconda3/envs/tfa/bin:/home/goose/miniconda3/condabin:/home/goose/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/goosetech:@/tmp/.ICE-unix/1065,unix/goosetech:/tmp/.ICE-unix/1065'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/b57bc0c5_5892_4937_99f5_28fbe37f6284'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('CONDA_PREFIX_1', '/home/goose/miniconda3'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.TCW3F3'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.124'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('CONDA_PYTHON_EXE', '/home/goose/miniconda3/bin/python'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('CONDA_DEFAULT_ENV', 'tfa'), ('_CONDA_EXE', '/home/goose/miniconda3/bin/conda'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/goose/benjiRL/mtrl-drone-racing-training/mtrl_trainer/build/agisim_batch_pybind_module'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('CONDA_EXE', '/home/goose/miniconda3/bin/conda'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('CONDA_PREFIX', '/home/goose/miniconda3/envs/tfa'), ('COLCON', '1'), ('VTE_VERSION', '6800')]), 'shell': False}
+[1.054561] (agisim_batch_pybind_module) StdoutLine: {'line': b'[ 20%] \x1b[32mBuilding CXX object CMakeFiles/csim_env.dir/bindings.cpp.o\x1b[0m\n'}
+[1.055644] (agisim_batch_pybind_module) StdoutLine: {'line': b'[ 80%] \x1b[32mBuilding CXX object CMakeFiles/csim_env.dir/TaskStabilization.cpp.o\x1b[0m\n'}
+[1.055795] (agisim_batch_pybind_module) StdoutLine: {'line': b'[ 80%] \x1b[32mBuilding CXX object CMakeFiles/csim_env.dir/AgiSimBatch2.cpp.o\x1b[0m\n'}
+[1.055854] (agisim_batch_pybind_module) StdoutLine: {'line': b'[ 80%] \x1b[32mBuilding CXX object CMakeFiles/csim_env.dir/TaskRacing.cpp.o\x1b[0m\n'}
+[1.102045] (-) TimerEvent: {}
+[1.202385] (-) TimerEvent: {}
+[1.302776] (-) TimerEvent: {}
+[1.403422] (-) TimerEvent: {}
+[1.503883] (-) TimerEvent: {}
+[1.604277] (-) TimerEvent: {}
+[1.704599] (-) TimerEvent: {}
+[1.804938] (-) TimerEvent: {}
+[1.905305] (-) TimerEvent: {}
+[2.009167] (-) TimerEvent: {}
+[2.109534] (-) TimerEvent: {}
+[2.209955] (-) TimerEvent: {}
+[2.310280] (-) TimerEvent: {}
+[2.410604] (-) TimerEvent: {}
+[2.510913] (-) TimerEvent: {}
+[2.611265] (-) TimerEvent: {}
+[2.711592] (-) TimerEvent: {}
+[2.811931] (-) TimerEvent: {}
+[2.912269] (-) TimerEvent: {}
+[3.012603] (-) TimerEvent: {}
+[3.113006] (-) TimerEvent: {}
+[3.213373] (-) TimerEvent: {}
+[3.313689] (-) TimerEvent: {}
+[3.414056] (-) TimerEvent: {}
+[3.515329] (-) TimerEvent: {}
+[3.615704] (-) TimerEvent: {}
+[3.716021] (-) TimerEvent: {}
+[3.775316] (agisim_batch_pybind_module) StderrLine: {'line': b'\x1b[01m\x1b[K/home/goose/benjiRL/mtrl-drone-racing-training/mtrl_trainer/AgiSimBatch2.cpp:\x1b[m\x1b[K In constructor \xe2\x80\x98\x1b[01m\x1b[Kagi_env::AgiSimBatch::AgiSimBatch(int, const string&, const string&, const string&, const std::vector<std::vector<std::vector<double> > >&)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[3.775617] (agisim_batch_pybind_module) StderrLine: {'line': b'\x1b[01m\x1b[K/home/goose/benjiRL/mtrl-drone-racing-training/mtrl_trainer/AgiSimBatch2.cpp:69:53:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[KTaskInterception\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope\n'}
+[3.775730] (agisim_batch_pybind_module) StderrLine: {'line': b'   69 |         available_tasks_.push_back(std::make_shared<\x1b[01;31m\x1b[KTaskInterception\x1b[m\x1b[K>());\n'}
+[3.775820] (agisim_batch_pybind_module) StderrLine: {'line': b'      |                                                     \x1b[01;31m\x1b[K^~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[3.775902] (agisim_batch_pybind_module) StderrLine: {'line': b'\x1b[01m\x1b[K/home/goose/benjiRL/mtrl-drone-racing-training/mtrl_trainer/AgiSimBatch2.cpp:69:71:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kno matching function for call to \xe2\x80\x98\x1b[01m\x1b[Kmake_shared<<expression error> >()\x1b[m\x1b[K\xe2\x80\x99\n'}
+[3.775987] (agisim_batch_pybind_module) StderrLine: {'line': b'   69 |         available_tasks_.push_back(std::make_shared<TaskInterception>(\x1b[01;31m\x1b[K)\x1b[m\x1b[K);\n'}
+[3.776082] (agisim_batch_pybind_module) StderrLine: {'line': b'      |                                                                       \x1b[01;31m\x1b[K^\x1b[m\x1b[K\n'}
+[3.776190] (agisim_batch_pybind_module) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/usr/include/c++/9/memory:81\x1b[m\x1b[K,\n'}
+[3.776282] (agisim_batch_pybind_module) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/goose/benjiRL/mtrl-drone-racing-training/mtrl_trainer/AgiSimBatch.hpp:10\x1b[m\x1b[K,\n'}
+[3.776378] (agisim_batch_pybind_module) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/goose/benjiRL/mtrl-drone-racing-training/mtrl_trainer/AgiSimBatch2.cpp:1\x1b[m\x1b[K:\n'}
+[3.776460] (agisim_batch_pybind_module) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/9/bits/shared_ptr.h:716:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Ktemplate<class _Tp, class ... _Args> std::shared_ptr<_Tp> std::make_shared(_Args&& ...)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[3.776549] (agisim_batch_pybind_module) StderrLine: {'line': b'  716 |     \x1b[01;36m\x1b[Kmake_shared\x1b[m\x1b[K(_Args&&... __args)\n'}
+[3.776634] (agisim_batch_pybind_module) StderrLine: {'line': b'      |     \x1b[01;36m\x1b[K^~~~~~~~~~~\x1b[m\x1b[K\n'}
+[3.776721] (agisim_batch_pybind_module) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/9/bits/shared_ptr.h:716:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  template argument deduction/substitution failed:\n'}
+[3.776807] (agisim_batch_pybind_module) StderrLine: {'line': b'\x1b[01m\x1b[K/home/goose/benjiRL/mtrl-drone-racing-training/mtrl_trainer/AgiSimBatch2.cpp:69:71:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Ktemplate argument 1 is invalid\n'}
+[3.776898] (agisim_batch_pybind_module) StderrLine: {'line': b'   69 |         available_tasks_.push_back(std::make_shared<TaskInterception>(\x1b[01;31m\x1b[K)\x1b[m\x1b[K);\n'}
+[3.776987] (agisim_batch_pybind_module) StderrLine: {'line': b'      |                                                                       \x1b[01;31m\x1b[K^\x1b[m\x1b[K\n'}
+[3.816186] (-) TimerEvent: {}
+[3.916576] (-) TimerEvent: {}
+[4.016897] (-) TimerEvent: {}
+[4.117229] (-) TimerEvent: {}
+[4.217551] (-) TimerEvent: {}
+[4.317877] (-) TimerEvent: {}
+[4.418165] (-) TimerEvent: {}
+[4.518536] (-) TimerEvent: {}
+[4.618971] (-) TimerEvent: {}
+[4.719344] (-) TimerEvent: {}
+[4.819716] (-) TimerEvent: {}
+[4.920054] (-) TimerEvent: {}
+[5.020446] (-) TimerEvent: {}
+[5.120772] (-) TimerEvent: {}
+[5.221113] (-) TimerEvent: {}
+[5.321436] (-) TimerEvent: {}
+[5.421749] (-) TimerEvent: {}
+[5.522073] (-) TimerEvent: {}
+[5.622432] (-) TimerEvent: {}
+[5.722753] (-) TimerEvent: {}
+[5.823075] (-) TimerEvent: {}
+[5.923390] (-) TimerEvent: {}
+[6.023759] (-) TimerEvent: {}
+[6.036990] (agisim_batch_pybind_module) StderrLine: {'line': b'gmake[2]: *** [CMakeFiles/csim_env.dir/build.make:90: CMakeFiles/csim_env.dir/AgiSimBatch2.cpp.o] Error 1\n'}
+[6.037161] (agisim_batch_pybind_module) StderrLine: {'line': b'gmake[2]: *** Waiting for unfinished jobs....\n'}
+[6.123852] (-) TimerEvent: {}
+[6.224132] (-) TimerEvent: {}
+[6.324462] (-) TimerEvent: {}
+[6.424736] (-) TimerEvent: {}
+[6.525067] (-) TimerEvent: {}
+[6.625340] (-) TimerEvent: {}
+[6.725687] (-) TimerEvent: {}
+[6.825946] (-) TimerEvent: {}
+[6.926298] (-) TimerEvent: {}
+[7.026650] (-) TimerEvent: {}
+[7.126931] (-) TimerEvent: {}
+[7.227183] (-) TimerEvent: {}
+[7.327457] (-) TimerEvent: {}
+[7.427723] (-) TimerEvent: {}
+[7.527998] (-) TimerEvent: {}
+[7.628260] (-) TimerEvent: {}
+[7.630611] (agisim_batch_pybind_module) StderrLine: {'line': b'gmake[1]: *** [CMakeFiles/Makefile2:83: CMakeFiles/csim_env.dir/all] Error 2\n'}
+[7.630794] (agisim_batch_pybind_module) StderrLine: {'line': b'gmake: *** [Makefile:91: all] Error 2\n'}
+[7.632588] (agisim_batch_pybind_module) CommandEnded: {'returncode': 2}
+[7.632882] (agisim_batch_pybind_module) JobEnded: {'identifier': 'agisim_batch_pybind_module', 'rc': 2}
+[7.643028] (-) EventReactorShutdown: {}

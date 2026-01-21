@@ -1,0 +1,33 @@
+-- The CXX compiler identification is GNU 9.5.0
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Check for working CXX compiler: /usr/bin/c++ - skipped
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+-- Using agilib includes from: /home/goose/benjiRL/mtrl-drone-racing-training/mtrl_trainer/../agilib/install/include
+-- Using agilib libraries from: /home/goose/benjiRL/mtrl-drone-racing-training/mtrl_trainer/../agilib/install/lib
+-- Expecting Acados includes in: /home/goose/benjiRL/mtrl-drone-racing-training/mtrl_trainer/../agilib/externals/acados-src/include
+-- Expecting Acados libraries in: /home/goose/benjiRL/mtrl-drone-racing-training/mtrl_trainer/../agilib/externals/acados-src/lib
+-- Found PythonInterp: /home/goose/miniconda3/envs/tfa/bin/python (found version "3.9.25") 
+-- Found PythonLibs: /home/goose/miniconda3/envs/tfa/lib/libpython3.9.so
+-- Performing Test HAS_FLTO
+-- Performing Test HAS_FLTO - Success
+-- Found pybind11: /usr/include (found version "2.9.1")
+-- Found pybind11
+-- Manually setting OpenMP CXX flags: -fopenmp
+-- Found yaml-cpp
+-- Found Eigen3
+-- Looking for C++ include pthread.h
+-- Looking for C++ include pthread.h - found
+-- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+-- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+-- Found Threads: TRUE  
+-- Found Threads
+-- Configuration successful for Python module 'csim_env'.
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/goose/benjiRL/mtrl-drone-racing-training/mtrl_trainer/build/agisim_batch_pybind_module
+[ 20%] [32mBuilding CXX object CMakeFiles/csim_env.dir/bindings.cpp.o[0m
+[ 80%] [32mBuilding CXX object CMakeFiles/csim_env.dir/TaskStabilization.cpp.o[0m
+[ 80%] [32mBuilding CXX object CMakeFiles/csim_env.dir/AgiSimBatch2.cpp.o[0m
+[ 80%] [32mBuilding CXX object CMakeFiles/csim_env.dir/TaskRacing.cpp.o[0m

@@ -1,0 +1,45 @@
+[0.000000] (-) TimerEvent: {}
+[0.000432] (agilib) JobQueued: {'identifier': 'agilib', 'dependencies': OrderedDict()}
+[0.000463] (agilib) JobStarted: {'identifier': 'agilib'}
+[0.004982] (agilib) JobProgress: {'identifier': 'agilib', 'progress': 'cmake'}
+[0.005325] (agilib) Command: {'cmd': ['/usr/bin/cmake', '/home/goose/benjiRL/mtrl-drone-racing-training', '-DCMAKE_INSTALL_PREFIX=/home/goose/benjiRL/mtrl-drone-racing-training/install/agilib'], 'cwd': '/home/goose/benjiRL/mtrl-drone-racing-training/build/agilib', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('CONDA_PROMPT_MODIFIER', '(tfa)'), ('LANGUAGE', 'en_US:en'), ('USER', 'goose'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('HOME', '/home/goose'), ('CONDA_SHLVL', '2'), ('OLDPWD', '/home/goose/benjiRL/mtrl-drone-racing-training/mtrl_trainer'), ('DESKTOP_SESSION', 'ubuntu'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('SYSTEMD_EXEC_PID', '1137'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('_CE_M', ''), ('PYTHONNOUSERSITE', '1'), ('_CONDA_ROOT', '/home/goose/miniconda3'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('LOGNAME', 'goose'), ('_', '/usr/bin/colcon'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'goose'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('_CE_CONDA', ''), ('PATH', '/home/goose/miniconda3/envs/tfa/bin:/home/goose/miniconda3/condabin:/home/goose/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/goosetech:@/tmp/.ICE-unix/1087,unix/goosetech:/tmp/.ICE-unix/1087'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/9ee0dc53_8e89_4c6a_bfd7_ca8c0c8edfa4'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('CONDA_PREFIX_1', '/home/goose/miniconda3'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.QU1WG3'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.126'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('CONDA_PYTHON_EXE', '/home/goose/miniconda3/bin/python'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('CONDA_DEFAULT_ENV', 'tfa'), ('_CONDA_EXE', '/home/goose/miniconda3/bin/conda'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/goose/benjiRL/mtrl-drone-racing-training/build/agilib'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('CONDA_EXE', '/home/goose/miniconda3/bin/conda'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('CONDA_PREFIX', '/home/goose/miniconda3/envs/tfa'), ('COLCON', '1'), ('VTE_VERSION', '6800')]), 'shell': False}
+[0.092802] (agilib) StdoutLine: {'line': b'-- The C compiler identification is GNU 9.5.0\n'}
+[0.099807] (-) TimerEvent: {}
+[0.150648] (agilib) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 9.5.0\n'}
+[0.160214] (agilib) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[0.199921] (-) TimerEvent: {}
+[0.217238] (agilib) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[0.223254] (agilib) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc - skipped\n'}
+[0.223804] (agilib) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[0.224308] (agilib) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[0.228829] (agilib) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[0.294162] (agilib) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[0.300031] (-) TimerEvent: {}
+[0.300624] (agilib) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[0.300852] (agilib) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[0.301269] (agilib) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[0.301802] (agilib) StdoutLine: {'line': b'-- ==================   !Agilicious! (Standalone Build v2)   ===================\n'}
+[0.308583] (agilib) StdoutLine: {'line': b'-- Using system provided Eigen 3.4.0\n'}
+[0.308926] (agilib) StderrLine: {'line': b'\x1b[31mCMake Error at CMakeLists.txt:70 (include):\n'}
+[0.309081] (agilib) StderrLine: {'line': b'  include could not find requested file:\n'}
+[0.309128] (agilib) StderrLine: {'line': b'\n'}
+[0.309177] (agilib) StderrLine: {'line': b'    cmake/acados.cmake\n'}
+[0.309221] (agilib) StderrLine: {'line': b'\n'}
+[0.309267] (agilib) StdoutLine: {'line': b'-- Searching for ACADOS sources relative to /home/goose/benjiRL/mtrl-drone-racing-training\n'}
+[0.309314] (agilib) StdoutLine: {'line': b'-- ACADOS_SOURCES found: \n'}
+[0.309358] (agilib) StderrLine: {'line': b'\x1b[0m\n'}
+[0.309399] (agilib) StderrLine: {'line': b'\x1b[33mCMake Warning at CMakeLists.txt:72 (message):\n'}
+[0.309440] (agilib) StderrLine: {'line': b"  cmake/acados.cmake did not define the 'acados_agi' target.  Linking might\n"}
+[0.309480] (agilib) StderrLine: {'line': b'  fail.\n'}
+[0.309531] (agilib) StderrLine: {'line': b'\n'}
+[0.309573] (agilib) StderrLine: {'line': b'\x1b[0m\n'}
+[0.309616] (agilib) StderrLine: {'line': b'\x1b[31mCMake Error at CMakeLists.txt:186 (message):\n'}
+[0.309664] (agilib) StderrLine: {'line': b'  Could not find any ACADOS sources matching patterns in src/controller/mpc/.\n'}
+[0.309720] (agilib) StderrLine: {'line': b"  Cannot build required 'acados_mpc' target.  Check paths in CMakeLists.txt.\n"}
+[0.309762] (agilib) StderrLine: {'line': b'\n'}
+[0.309803] (agilib) StderrLine: {'line': b'\x1b[0m\n'}
+[0.309845] (agilib) StdoutLine: {'line': b'-- Configuring incomplete, errors occurred!\n'}
+[0.309890] (agilib) StdoutLine: {'line': b'See also "/home/goose/benjiRL/mtrl-drone-racing-training/build/agilib/CMakeFiles/CMakeOutput.log".\n'}
+[0.312190] (agilib) CommandEnded: {'returncode': 1}
+[0.312723] (agilib) JobEnded: {'identifier': 'agilib', 'rc': 1}
+[0.323317] (-) EventReactorShutdown: {}

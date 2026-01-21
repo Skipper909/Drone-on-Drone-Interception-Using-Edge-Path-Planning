@@ -1,0 +1,12 @@
+episodes: 1000
+success_rate (<= 1.00 m): 64.70%
+near_miss_rate (<= 1.50 m): 27.50%
+fail_rate: 7.80%
+first_pass_rate: 37.80%
+mean_min_dist: 0.916 m
+mean_capture_time_success: 5.114 s
+dt: 0.0200
+max_steps: 1300
+rel_pos_scale_m: 300.000
+hex_gridsize: 25
+hex_mincnt: 5

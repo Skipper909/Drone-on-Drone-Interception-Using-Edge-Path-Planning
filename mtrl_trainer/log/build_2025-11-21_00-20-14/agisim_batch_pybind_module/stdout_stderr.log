@@ -1,0 +1,31 @@
+[35m[1mConsolidate compiler generated dependencies of target csim_env[0m
+[ 20%] [32mBuilding CXX object CMakeFiles/csim_env.dir/AgiSimBatch2.cpp.o[0m
+In file included from [01m[K/usr/include/x86_64-linux-gnu/c++/9/bits/c++allocator.h:33[m[K,
+                 from [01m[K/usr/include/c++/9/bits/allocator.h:46[m[K,
+                 from [01m[K/usr/include/c++/9/vector:64[m[K,
+                 from [01m[K/home/goose/benjiRL/mtrl-drone-racing-training/mtrl_trainer/AgiSimBatch.hpp:4[m[K,
+                 from [01m[K/home/goose/benjiRL/mtrl-drone-racing-training/mtrl_trainer/AgiSimBatch2.cpp:1[m[K:
+/usr/include/c++/9/ext/new_allocator.h: In instantiation of ‘[01m[Kvoid __gnu_cxx::new_allocator<_Tp>::construct(_Up*, _Args&& ...) [with _Up = agi_env::TaskInterceptionMoving; _Args = {agi_env::AgiSimBatch&}; _Tp = agi_env::TaskInterceptionMoving][m[K’:
+[01m[K/usr/include/c++/9/bits/alloc_traits.h:483:4:[m[K   required from ‘[01m[Kstatic void std::allocator_traits<std::allocator<_Tp1> >::construct(std::allocator_traits<std::allocator<_Tp1> >::allocator_type&, _Up*, _Args&& ...) [with _Up = agi_env::TaskInterceptionMoving; _Args = {agi_env::AgiSimBatch&}; _Tp = agi_env::TaskInterceptionMoving; std::allocator_traits<std::allocator<_Tp1> >::allocator_type = std::allocator<agi_env::TaskInterceptionMoving>][m[K’
+[01m[K/usr/include/c++/9/bits/shared_ptr_base.h:548:39:[m[K   required from ‘[01m[Kstd::_Sp_counted_ptr_inplace<_Tp, _Alloc, _Lp>::_Sp_counted_ptr_inplace(_Alloc, _Args&& ...) [with _Args = {agi_env::AgiSimBatch&}; _Tp = agi_env::TaskInterceptionMoving; _Alloc = std::allocator<agi_env::TaskInterceptionMoving>; __gnu_cxx::_Lock_policy _Lp = __gnu_cxx::_S_atomic][m[K’
+[01m[K/usr/include/c++/9/bits/shared_ptr_base.h:679:16:[m[K   required from ‘[01m[Kstd::__shared_count<_Lp>::__shared_count(_Tp*&, std::_Sp_alloc_shared_tag<_Alloc>, _Args&& ...) [with _Tp = agi_env::TaskInterceptionMoving; _Alloc = std::allocator<agi_env::TaskInterceptionMoving>; _Args = {agi_env::AgiSimBatch&}; __gnu_cxx::_Lock_policy _Lp = __gnu_cxx::_S_atomic][m[K’
+[01m[K/usr/include/c++/9/bits/shared_ptr_base.h:1344:71:[m[K   required from ‘[01m[Kstd::__shared_ptr<_Tp, _Lp>::__shared_ptr(std::_Sp_alloc_shared_tag<_Tp>, _Args&& ...) [with _Alloc = std::allocator<agi_env::TaskInterceptionMoving>; _Args = {agi_env::AgiSimBatch&}; _Tp = agi_env::TaskInterceptionMoving; __gnu_cxx::_Lock_policy _Lp = __gnu_cxx::_S_atomic][m[K’
+[01m[K/usr/include/c++/9/bits/shared_ptr.h:359:59:[m[K   required from ‘[01m[Kstd::shared_ptr<_Tp>::shared_ptr(std::_Sp_alloc_shared_tag<_Tp>, _Args&& ...) [with _Alloc = std::allocator<agi_env::TaskInterceptionMoving>; _Args = {agi_env::AgiSimBatch&}; _Tp = agi_env::TaskInterceptionMoving][m[K’
+[01m[K/usr/include/c++/9/bits/shared_ptr.h:703:14:[m[K   required from ‘[01m[Kstd::shared_ptr<_Tp> std::allocate_shared(const _Alloc&, _Args&& ...) [with _Tp = agi_env::TaskInterceptionMoving; _Alloc = std::allocator<agi_env::TaskInterceptionMoving>; _Args = {agi_env::AgiSimBatch&}][m[K’
+[01m[K/usr/include/c++/9/bits/shared_ptr.h:719:39:[m[K   required from ‘[01m[Kstd::shared_ptr<_Tp> std::make_shared(_Args&& ...) [with _Tp = agi_env::TaskInterceptionMoving; _Args = {agi_env::AgiSimBatch&}][m[K’
+[01m[K/home/goose/benjiRL/mtrl-drone-racing-training/mtrl_trainer/AgiSimBatch2.cpp:71:82:[m[K   required from here
+[01m[K/usr/include/c++/9/ext/new_allocator.h:146:4:[m[K [01;31m[Kerror: [m[Kinvalid new-expression of abstract class type ‘[01m[Kagi_env::TaskInterceptionMoving[m[K’
+  146 |  { [01;31m[K::new((void *)__p) _Up(std::forward<_Args>(__args)...)[m[K; }
+      |    [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+In file included from [01m[K/home/goose/benjiRL/mtrl-drone-racing-training/mtrl_trainer/AgiSimBatch2.cpp:18[m[K:
+[01m[K/home/goose/benjiRL/mtrl-drone-racing-training/mtrl_trainer/TaskInterceptionMoving.hpp:12:7:[m[K [01;36m[Knote: [m[K  because the following virtual functions are pure within ‘[01m[Kagi_env::TaskInterceptionMoving[m[K’:
+   12 | class [01;36m[KTaskInterceptionMoving[m[K : public ITask {
+      |       [01;36m[K^~~~~~~~~~~~~~~~~~~~~~[m[K
+In file included from [01m[K/home/goose/benjiRL/mtrl-drone-racing-training/mtrl_trainer/AgiSimBatch.hpp:36[m[K,
+                 from [01m[K/home/goose/benjiRL/mtrl-drone-racing-training/mtrl_trainer/AgiSimBatch2.cpp:1[m[K:
+[01m[K/home/goose/benjiRL/mtrl-drone-racing-training/mtrl_trainer/ITask.hpp:38:15:[m[K [01;36m[Knote: [m[K	‘[01m[Kvirtual int agi_env::ITask::getTaskID() const[m[K’
+   38 |   virtual int [01;36m[KgetTaskID[m[K() const = 0;
+      |               [01;36m[K^~~~~~~~~[m[K
+gmake[2]: *** [CMakeFiles/csim_env.dir/build.make:90: CMakeFiles/csim_env.dir/AgiSimBatch2.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:83: CMakeFiles/csim_env.dir/all] Error 2
+gmake: *** [Makefile:91: all] Error 2

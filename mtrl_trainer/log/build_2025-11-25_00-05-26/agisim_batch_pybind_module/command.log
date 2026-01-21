@@ -1,0 +1,2 @@
+Invoking command in '/home/goose/benjiRL/mtrl-drone-racing-training/mtrl_trainer/build/agisim_batch_pybind_module': CONDA_PROMPT_MODIFIER=(tfa) /usr/bin/cmake --build /home/goose/benjiRL/mtrl-drone-racing-training/mtrl_trainer/build/agisim_batch_pybind_module -- -j8 -l8
+Invoked command in '/home/goose/benjiRL/mtrl-drone-racing-training/mtrl_trainer/build/agisim_batch_pybind_module' returned '0': CONDA_PROMPT_MODIFIER=(tfa) /usr/bin/cmake --build /home/goose/benjiRL/mtrl-drone-racing-training/mtrl_trainer/build/agisim_batch_pybind_module -- -j8 -l8

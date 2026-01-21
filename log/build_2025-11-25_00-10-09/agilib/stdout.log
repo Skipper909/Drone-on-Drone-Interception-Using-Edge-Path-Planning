@@ -1,0 +1,18 @@
+-- The C compiler identification is GNU 9.5.0
+-- The CXX compiler identification is GNU 9.5.0
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Check for working C compiler: /usr/bin/cc - skipped
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Check for working CXX compiler: /usr/bin/c++ - skipped
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+-- ==================   !Agilicious! (Standalone Build v2)   ===================
+-- Using system provided Eigen 3.4.0
+-- Searching for ACADOS sources relative to /home/goose/benjiRL/mtrl-drone-racing-training
+-- ACADOS_SOURCES found: 
+-- Configuring incomplete, errors occurred!
+See also "/home/goose/benjiRL/mtrl-drone-racing-training/build/agilib/CMakeFiles/CMakeOutput.log".

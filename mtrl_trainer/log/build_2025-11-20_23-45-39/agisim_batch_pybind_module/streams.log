@@ -1,0 +1,58 @@
+[0.047s] Invoking command in '/home/goose/benjiRL/mtrl-drone-racing-training/mtrl_trainer/build/agisim_batch_pybind_module': CONDA_PROMPT_MODIFIER=(tfa) /usr/bin/cmake /home/goose/benjiRL/mtrl-drone-racing-training/mtrl_trainer -DCMAKE_INSTALL_PREFIX=/home/goose/benjiRL/mtrl-drone-racing-training/mtrl_trainer/install/agisim_batch_pybind_module
+[0.424s] -- The CXX compiler identification is GNU 9.5.0
+[0.435s] -- Detecting CXX compiler ABI info
+[0.518s] -- Detecting CXX compiler ABI info - done
+[0.527s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.527s] -- Detecting CXX compile features
+[0.529s] -- Detecting CXX compile features - done
+[0.530s] -- Using agilib includes from: /home/goose/benjiRL/mtrl-drone-racing-training/mtrl_trainer/../agilib/install/include
+[0.530s] -- Using agilib libraries from: /home/goose/benjiRL/mtrl-drone-racing-training/mtrl_trainer/../agilib/install/lib
+[0.530s] -- Expecting Acados includes in: /home/goose/benjiRL/mtrl-drone-racing-training/mtrl_trainer/../agilib/externals/acados-src/include
+[0.530s] -- Expecting Acados libraries in: /home/goose/benjiRL/mtrl-drone-racing-training/mtrl_trainer/../agilib/externals/acados-src/lib
+[0.548s] -- Found PythonInterp: /home/goose/miniconda3/envs/tfa/bin/python (found version "3.9.25") 
+[0.672s] -- Found PythonLibs: /home/goose/miniconda3/envs/tfa/lib/libpython3.9.so
+[0.674s] -- Performing Test HAS_FLTO
+[0.817s] -- Performing Test HAS_FLTO - Success
+[0.817s] -- Found pybind11: /usr/include (found version "2.9.1")
+[0.817s] -- Found pybind11
+[0.817s] -- Manually setting OpenMP CXX flags: -fopenmp
+[0.820s] -- Found yaml-cpp
+[0.825s] -- Found Eigen3
+[0.826s] -- Looking for C++ include pthread.h
+[0.905s] -- Looking for C++ include pthread.h - found
+[0.906s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[0.987s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[0.988s] -- Found Threads: TRUE  
+[0.988s] -- Found Threads
+[0.996s] -- Configuration successful for Python module 'csim_env'.
+[0.996s] -- Configuring done
+[1.004s] -- Generating done
+[1.006s] -- Build files have been written to: /home/goose/benjiRL/mtrl-drone-racing-training/mtrl_trainer/build/agisim_batch_pybind_module
+[1.010s] Invoked command in '/home/goose/benjiRL/mtrl-drone-racing-training/mtrl_trainer/build/agisim_batch_pybind_module' returned '0': CONDA_PROMPT_MODIFIER=(tfa) /usr/bin/cmake /home/goose/benjiRL/mtrl-drone-racing-training/mtrl_trainer -DCMAKE_INSTALL_PREFIX=/home/goose/benjiRL/mtrl-drone-racing-training/mtrl_trainer/install/agisim_batch_pybind_module
+[1.013s] Invoking command in '/home/goose/benjiRL/mtrl-drone-racing-training/mtrl_trainer/build/agisim_batch_pybind_module': CONDA_PROMPT_MODIFIER=(tfa) /usr/bin/cmake --build /home/goose/benjiRL/mtrl-drone-racing-training/mtrl_trainer/build/agisim_batch_pybind_module -- -j8 -l8
+[1.054s] [ 20%] [32mBuilding CXX object CMakeFiles/csim_env.dir/bindings.cpp.o[0m
+[1.055s] [ 80%] [32mBuilding CXX object CMakeFiles/csim_env.dir/TaskStabilization.cpp.o[0m
+[1.055s] [ 80%] [32mBuilding CXX object CMakeFiles/csim_env.dir/AgiSimBatch2.cpp.o[0m
+[1.055s] [ 80%] [32mBuilding CXX object CMakeFiles/csim_env.dir/TaskRacing.cpp.o[0m
+[3.775s] [01m[K/home/goose/benjiRL/mtrl-drone-racing-training/mtrl_trainer/AgiSimBatch2.cpp:[m[K In constructor ‘[01m[Kagi_env::AgiSimBatch::AgiSimBatch(int, const string&, const string&, const string&, const std::vector<std::vector<std::vector<double> > >&)[m[K’:
+[3.775s] [01m[K/home/goose/benjiRL/mtrl-drone-racing-training/mtrl_trainer/AgiSimBatch2.cpp:69:53:[m[K [01;31m[Kerror: [m[K‘[01m[KTaskInterception[m[K’ was not declared in this scope
+[3.775s]    69 |         available_tasks_.push_back(std::make_shared<[01;31m[KTaskInterception[m[K>());
+[3.775s]       |                                                     [01;31m[K^~~~~~~~~~~~~~~~[m[K
+[3.776s] [01m[K/home/goose/benjiRL/mtrl-drone-racing-training/mtrl_trainer/AgiSimBatch2.cpp:69:71:[m[K [01;31m[Kerror: [m[Kno matching function for call to ‘[01m[Kmake_shared<<expression error> >()[m[K’
+[3.776s]    69 |         available_tasks_.push_back(std::make_shared<TaskInterception>([01;31m[K)[m[K);
+[3.776s]       |                                                                       [01;31m[K^[m[K
+[3.776s] In file included from [01m[K/usr/include/c++/9/memory:81[m[K,
+[3.776s]                  from [01m[K/home/goose/benjiRL/mtrl-drone-racing-training/mtrl_trainer/AgiSimBatch.hpp:10[m[K,
+[3.776s]                  from [01m[K/home/goose/benjiRL/mtrl-drone-racing-training/mtrl_trainer/AgiSimBatch2.cpp:1[m[K:
+[3.776s] [01m[K/usr/include/c++/9/bits/shared_ptr.h:716:5:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class _Tp, class ... _Args> std::shared_ptr<_Tp> std::make_shared(_Args&& ...)[m[K’
+[3.776s]   716 |     [01;36m[Kmake_shared[m[K(_Args&&... __args)
+[3.776s]       |     [01;36m[K^~~~~~~~~~~[m[K
+[3.776s] [01m[K/usr/include/c++/9/bits/shared_ptr.h:716:5:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[3.776s] [01m[K/home/goose/benjiRL/mtrl-drone-racing-training/mtrl_trainer/AgiSimBatch2.cpp:69:71:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+[3.777s]    69 |         available_tasks_.push_back(std::make_shared<TaskInterception>([01;31m[K)[m[K);
+[3.777s]       |                                                                       [01;31m[K^[m[K
+[6.037s] gmake[2]: *** [CMakeFiles/csim_env.dir/build.make:90: CMakeFiles/csim_env.dir/AgiSimBatch2.cpp.o] Error 1
+[6.037s] gmake[2]: *** Waiting for unfinished jobs....
+[7.630s] gmake[1]: *** [CMakeFiles/Makefile2:83: CMakeFiles/csim_env.dir/all] Error 2
+[7.630s] gmake: *** [Makefile:91: all] Error 2
+[7.632s] Invoked command in '/home/goose/benjiRL/mtrl-drone-racing-training/mtrl_trainer/build/agisim_batch_pybind_module' returned '2': CONDA_PROMPT_MODIFIER=(tfa) /usr/bin/cmake --build /home/goose/benjiRL/mtrl-drone-racing-training/mtrl_trainer/build/agisim_batch_pybind_module -- -j8 -l8
