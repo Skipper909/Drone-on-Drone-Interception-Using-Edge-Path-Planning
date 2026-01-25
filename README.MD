@@ -1,10 +1,7 @@
-# Autonomous Drone Racing with Multi Task Reinforcement Learning (MTRL)
+# Drone on Drone Interception Using Edge Path Planning
 
-This project focuses on training an autonomous drone to navigate race tracks using reinforcement learning. 
-Out of the box, it can utilize the AgiLib library for drone dynamics and a custom C++ simulator environment, with policy training performed using
-TF-Agents in Python. To use Agilib, access to the Agilicious repository has to be obtained separately. 
-With some customization, other simulators can instead be integrated into the training process.
-
+This project focuses on training an autonomous drone to intercept a moving target using reinforcement learning. 
+Based on https://github.com/franklyn4000/mtrl-drone-racing-training
 ## Prerequisites
 
 * Ideally Ubuntu, this needs to be adapted significantly to run on other systems
@@ -82,7 +79,7 @@ AgiLib provides the core quadrotor dynamics and simulation components.
 
 4.  **Fixing paths:**
    ```bash
-  # open train.py and fix the parameter paths at the top. 
+  # open train_intercept_greedy.py and fix the parameter paths at the top. 
   # Should be replaced with relative paths in the future.
    ```
 
@@ -91,7 +88,7 @@ AgiLib provides the core quadrotor dynamics and simulation components.
   cd mtrl_trainer
   conda activate tfa && export TF_USE_LEGACY_KERAS=1
 
-  python3 train.py
+  python3 train_intercept_greedy.py
   
   # fix any errors and add missing python dependencies
    ```
